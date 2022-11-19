@@ -4,8 +4,8 @@ def solve(m):
 
     a=np.array(m)
     n=len(a)
-    terminal=set()
-    non_terminal=set()
+    terminal=[]
+    non_terminal=[]
     summ=[]
     for x in range(len(a)):
         summ.append(sum(a[x]))
